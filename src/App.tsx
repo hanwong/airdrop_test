@@ -50,6 +50,9 @@ function App() {
           <br />
           <br />
           Please make sure to do this on a desktop, as the airdrop website does not support mobile devices.
+          <br />
+          <br />
+          "{`tma ${initDataRaw}`}"
         </p>
         <input 
           {...register("address", {
